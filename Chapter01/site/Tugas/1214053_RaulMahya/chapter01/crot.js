@@ -35,7 +35,8 @@ function isitabel(value){
     txt= txt+trnyatabel.replace("#TEXT#",texr+value.source+"");
     txt= txt+trnyatabel.replace("#TEXT#",ter+value.source+"");
     txt= txt+trnyatabel.replace("#TEXT#",user+value.user+"");
-    txt= txt+trnyatabel.replace("#TEXT#",user+value.used+"");
+    txt= txt+trnyatabel.replace("#TEXT#",delet+value.user+"");
+    txt= txt+trnyatabel.replace("#TEXT#",used+value.used+"");
 
     document.getElementById("konten").innerHTML=txt;
     }
