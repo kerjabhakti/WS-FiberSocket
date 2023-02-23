@@ -8,6 +8,7 @@ var requestOptions = {
   txt1=""
   
   fetch("https://indonesia-public-static-api.vercel.app/api/heroes", requestOptions)
+  // fetch("https://www.boredapi.com/api/activity", requestOptions)
     .then(response => response.text())
     //.then(result => console.log(result))
     .then(result => tampilkan(result))
