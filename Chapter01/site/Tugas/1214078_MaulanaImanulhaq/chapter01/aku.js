@@ -11,7 +11,10 @@ hasil=""
 txt=""
 txt1=""
 
-fetch("https://cat-fact.herokuapp.com/facts", requestOptions)
+fetch("https://indonesia-public-static-api.vercel.app/api/heroes", requestOptions)
+
+// fetch("https://dev.farizdotid.com/api/daerahindonesia/provinsi/32", requestOptions)
+
   .then(response => response.text())
   .then(result => tampilkan(result))
   .catch(error => console.log('error', error));
@@ -24,20 +27,15 @@ function tampilkan(result){
 }
 
 function isitabel(value){
-    const oke = "cat:"
-    const texr = "source:"
-    const user = "user"
-    const ter = "updatedAt:"
-    const delet = "delete:"
-    const used = "user:"
-    txt= txt+trnyatabel.replace("#TEXT#","\nnama:"+value._id);
-    txt= txt+trnyatabel.replace("#TEXT#",oke+value.text+"");
-    txt= txt+trnyatabel.replace("#TEXT#",texr+value.source+"");
-    txt= txt+trnyatabel.replace("#TEXT#",ter+value.source+"");
-    txt= txt+trnyatabel.replace("#TEXT#",user+value.user+"");
-    txt= txt+trnyatabel.replace("#TEXT#",delet+value.user+"");
-    txt= txt+trnyatabel.replace("#TEXT#",used+value.used+"");
-
+    const deskripsi = "deskripsi:"
+    const birth_year = "tahun lahir:"
+    const death_year = "tahun meninggal:"
+    txt= txt+trnyatabel.replace("#TEXT#","\nnama:"+value.name);
+      txt= txt+trnyatabel.replace("#TEXT#",deskripsi+value.description+"");
+      txt= txt+trnyatabel.replace("#TEXT#",birth_year+value.birth_year+"");
+      txt= txt+trnyatabel.replace("#TEXT#",death_year+value.death_year+"");
+      
+      
     document.getElementById("konten").innerHTML=txt;
     }
     trnyatabel=`
