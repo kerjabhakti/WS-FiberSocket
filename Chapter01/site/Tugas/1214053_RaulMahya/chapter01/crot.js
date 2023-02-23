@@ -24,9 +24,19 @@ function tampilkan(result){
 }
 
 function isitabel(value){
-    const oke = "deathyear:"
-    txt= txt+trnyatabel.replace("#TEXT#","\nnama:"+value.text);
-      txt= txt+trnyatabel.replace("#TEXT#",oke+value.type+"");
+    const oke = "cat:"
+    const texr = "source:"
+    const user = "user"
+    const ter = "updatedAt:"
+    const delet = "delete:"
+    const used = "user:"
+    txt= txt+trnyatabel.replace("#TEXT#","\nnama:"+value._id);
+    txt= txt+trnyatabel.replace("#TEXT#",oke+value.text+"");
+    txt= txt+trnyatabel.replace("#TEXT#",texr+value.source+"");
+    txt= txt+trnyatabel.replace("#TEXT#",ter+value.source+"");
+    txt= txt+trnyatabel.replace("#TEXT#",user+value.user+"");
+    txt= txt+trnyatabel.replace("#TEXT#",user+value.used+"");
+
     document.getElementById("konten").innerHTML=txt;
     }
     trnyatabel=`
