@@ -4,11 +4,11 @@
 
 * Memiliki akun requestcatcher.com atau webhook.site atau pipedream.com
 * Coba melakukan method post dengan Postman dengan header token
-  ![image](https://user-images.githubusercontent.com/11188109/220023489-ebb8d666-f099-4384-b2d4-0d165f402ab6.png)
+![image](https://user-images.githubusercontent.com/15622730/221462872-1866c9e2-2a88-4cdf-8fda-470651baf267.png)
 * Lihat hasilnya di web, terlihat ada token disana
-  ![image](https://user-images.githubusercontent.com/11188109/220023734-cf442863-7ec4-40eb-abfc-4058f0ca8380.png)
+![image](https://user-images.githubusercontent.com/15622730/221463069-76ea716f-3445-4a4c-b312-a77031261782.png)
 * Setting Repo untuk Github Pages
-  ![image](https://user-images.githubusercontent.com/11188109/220018093-6ac9f3ea-af03-47b9-a038-76a2f5a295a2.png)
+![image](https://user-images.githubusercontent.com/15622730/221463244-450beb88-2c85-48ae-9e3a-caa6742cbed5.png)
 * Ingat selalu inspect console untuk melihat error javascript, jika terjadi error CORS Police, maka ganti ke pipedream.com
   
 ## Setting Endpoint di Pipedream
@@ -31,30 +31,32 @@ Disini kita akan melakukan request dengan menggunakan javascript fetch.
   
 * Klik sign up with github
 
-  ![image](https://user-images.githubusercontent.com/11188109/220200140-783f1a04-e00b-425b-a5b2-b43f546b022c.png)
-  
+  ![image](https://user-images.githubusercontent.com/15622730/221463386-0cd765b3-7fd2-4b0b-98bc-2fc937d75ec1.png)  
 * Authorize
 
-  ![image](https://user-images.githubusercontent.com/11188109/220200197-98f46bc2-2217-4697-9e54-9034e864d4cd.png)
+  ![image](https://user-images.githubusercontent.com/15622730/221463386-0cd765b3-7fd2-4b0b-98bc-2fc937d75ec1.png)  
   
 * Pilih Nama Workspace yang tersedia, ditandai dengan tanda centang hijau, kemudian klik Continue
 
-  ![image](https://user-images.githubusercontent.com/11188109/220200320-707ff8e0-cc32-4196-ad3a-8cfa083b2d11.png)
-* Opsional membagikan link workspace seperti ini, https://pipedream.com/@bukupedia/invite?token=4adefabe60301ac06b000ee620533e73 . Lanjutkan dengan menekan tombol Skip.
-  ![image](https://user-images.githubusercontent.com/11188109/220201017-bf5ac24b-78fc-4195-a507-8a7f4b1a1d09.png)
+![image](https://user-images.githubusercontent.com/15622730/221463488-bbed03f2-da3b-46a0-8fbe-dfefeacd3a5c.png)
+* Opsional membagikan link workspace seperti ini, https://pipedream.com/@roniandarsyah/invite?token=49448e0f598cdf46ebbea4d2db99c20b 
+* Lanjutkan dengan menekan tombol Skip.
+![image](https://user-images.githubusercontent.com/15622730/221463630-bd85c35b-75f5-497b-879c-f4c8749cdc06.png)
 * Klik New HTTP / Webhook REquest
-  ![image](https://user-images.githubusercontent.com/11188109/220201239-3a98da54-3349-4cc6-be73-cce215681da1.png)
+![image](https://user-images.githubusercontent.com/15622730/221463704-17115b90-e38b-4a2a-bcd4-935119c0eefa.png)
 * Pilih Event Data : Raw REquest, HTTP Response : 200 OK . Kemudian klik Save and Continue
   ![image](https://user-images.githubusercontent.com/11188109/220201352-08e86d50-0b57-4bb9-98f5-b6ff3d09d420.png)
-* Akan keluar unique URL untuk endpoint : https://eol0j1lmdtbpzp.m.pipedream.net . Kemudian kita coba dengan postman dahulu
-  ![image](https://user-images.githubusercontent.com/11188109/220201459-1d403095-0585-40d3-b478-e33d0d510ce2.png)
+* Akan keluar unique URL untuk endpoint : https://eogm9v38644wi49.m.pipedream.net . Kemudian kita coba dengan postman dahulu
+![image](https://user-images.githubusercontent.com/15622730/221464040-280cc239-a439-49f7-9b53-7fb1d650c787.png)
 
 ### Melakukan Testing Endpoint
 
 Disini kita akan membuka Postman untuk melakukan testing endpoint dahulu, dengan contoh :
 * Method POST Headers kita isi dengan Key : Login , Value : Bebas. Pada bagian body isi dengan data json .Kemudian klik Send
-  ![image](https://user-images.githubusercontent.com/11188109/220201693-d5189d91-116b-42cf-9632-b553822a0327.png)
-  ![image](https://user-images.githubusercontent.com/11188109/220203247-7803df47-029c-4bd9-9233-ef2540d9bca7.png)
+![image](https://user-images.githubusercontent.com/15622730/221464077-bd145dde-fd1c-422d-aade-9d1fe18f8452.png)
+![image](https://user-images.githubusercontent.com/15622730/221464677-6b2f43b3-0e6c-4898-92d9-a2246b0b062d.png)
+
+![image](https://user-images.githubusercontent.com/11188109/220203247-7803df47-029c-4bd9-9233-ef2540d9bca7.png)
 * Dashboard Pipedream akan muncul 1 New Event, kita buka event tersebut.
   ![image](https://user-images.githubusercontent.com/11188109/220201839-cf090239-88eb-4506-8d4c-a0e57b68b4f6.png)
   ![image](https://user-images.githubusercontent.com/11188109/220201921-6e223896-90cf-4442-b242-7eba8b433aab.png)
