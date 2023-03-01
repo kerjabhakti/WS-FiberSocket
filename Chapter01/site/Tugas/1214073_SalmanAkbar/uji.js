@@ -13,7 +13,6 @@ txt1=""
 
 fetch("http://universities.hipolabs.com/search?country=United+Kingdom", requestOptions)
 
-// fetch("https://dev.farizdotid.com/api/daerahindonesia/provinsi/32", requestOptions)
 
   .then(response => response.text())
   .then(result => tampilkan(result))
@@ -23,7 +22,6 @@ function tampilkan(result){
   console.log(result);
   hasil=JSON.parse(result);
   txt=hasil.forEach(isitabel);
-//   document.getElementById("nama").innerHTML(result);
 }
 
 function isitabel(value){
