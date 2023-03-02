@@ -11,7 +11,7 @@ hasil=""
 txt=""
 txt1=""
 
-fetch("https://indonesia-public-static-api.vercel.app/api/heroes", requestOptions)
+fetch("https://ibnux.github.io/data-indonesia/provinsi.json", requestOptions)
 
 // fetch("https://dev.farizdotid.com/api/daerahindonesia/provinsi/32", requestOptions)
 
@@ -27,16 +27,14 @@ function tampilkan(result){
 }
 
 function isitabel(value){
-    const deskripsi = "Deskripsi : "
-    const birth_year = "Tahun lahir : "
-    const death_year = "Tahun meninggal : "
-    const pembatas = "====================== "
-    txt= txt+trnyatabel.replace("#TEXT#","\nNama : "+value.name);
-      txt= txt+trnyatabel.replace("#TEXT#",deskripsi+value.description+"");
-      txt= txt+trnyatabel.replace("#TEXT#",birth_year+value.birth_year+"");
-      txt= txt+trnyatabel.replace("#TEXT#",death_year+value.death_year+"");
-      txt= txt+trnyatabel.replace("#TEXT#",pembatas);
-      
+    const id = "ID : "
+    const nama = "Nama : "
+    const pembatas = "================"
+    
+
+    txt= txt+trnyatabel.replace("#TEXT#","\id : "+value.id);
+    txt= txt+trnyatabel.replace("#TEXT#",nama+value.nama+"");
+    txt= txt+trnyatabel.replace("#TEXT#",pembatas);
       
     document.getElementById("konten").innerHTML=txt;
     }
