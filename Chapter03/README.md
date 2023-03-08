@@ -88,7 +88,7 @@ Hasilnya seperti ini
 ## Pengembangan Backend
 
 Pada sesi ini pastikan anda sudah mendaftarkan diri ke heroku. Kemudian kita akan mencoba mengembangkan package golang. Langkah untuk membuat backend di golang :
-* Instalasi golang
+* Instalasi golang (https://go.dev/dl/)
 * Definisikan dahulu struct
 * Buatlah package dan fungsi menggunakan struct tersebut
 * Fungsi mengakses langsung database
