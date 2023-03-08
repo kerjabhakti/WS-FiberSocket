@@ -299,7 +299,7 @@ go list -m github.com/whatsauth/wasocket@v0.0.1
 * Buatlah akun heroku atau GCP atau AWS, gunakan bank digital untuk melakukan verifikasi pembayaran.
 * Aktifkan [GitHub Student Developer Pack](https://education.github.com/pack).
 * Buatlah struct, package, testing, dan publish package mengakses basis data yang sudah dibuat sebelumnya taruh di folder backend.(nilai 5 per type struct dan 5 per fungsi)
-* Github Pages Sudah UP untuk frontend, contoh : 
+* Github Pages Sudah UP untuk frontend, 
 * Pull Request dengan Judul : 3-KELAS-NPM-NAMA menyertakan
   * URL github pages, beserta skrinsutan
   * URL [pkg.go.dev](https://pkg.go.dev/), beserta skrinsutan
