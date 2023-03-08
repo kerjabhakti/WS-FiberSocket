@@ -106,6 +106,8 @@ Buat file type.go pada folder tersebut. Kemudian isilah dengan struct yang akan 
 * bson : mendefinisikan nama field pada collection di database mongoDB
 * json : mendefinisikan nama atribut pada pertukaran json melalui API
 * omitempty : diperbolehkan tidak diisi / nullable
+* [] menunjukan data array didalam array
+* GMT +7 Jakarta
 
 ```go
 package namapackage
