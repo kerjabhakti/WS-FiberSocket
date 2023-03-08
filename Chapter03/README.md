@@ -70,6 +70,18 @@ Tambahkan chart, resume dan tabel.
 Dalam memilih basis data skala enterprise harus mengacu pada hasil survey [Gartner](https://www.gartner.com/reviews/market/cloud-database-management-systems).Buatlah masing-masing basis data dari studi kasus yang dipilih :
 * Jika belum punya akun silahkan buat akun menggunakan akun Github (sign in)
 ![image](https://user-images.githubusercontent.com/15622730/223630472-6876cfd3-0ed7-4fbd-b51c-f7fb62cb355a.png)
+![image](https://user-images.githubusercontent.com/15622730/223630677-23c059d9-0236-4cc3-9d35-14e5724003ee.png)
+![image](https://user-images.githubusercontent.com/15622730/223630763-a1fc6f61-61e4-4f2d-be1a-72212ce3420d.png)
+![image](https://user-images.githubusercontent.com/15622730/223631022-4149c024-cce1-4bfa-95f6-bb5b37f2c0b5.png)
+![image](https://user-images.githubusercontent.com/15622730/223631673-e509a334-363c-4d51-a287-4a8531d023f9.png)
+![image](https://user-images.githubusercontent.com/15622730/223632150-14a16067-1664-4faa-bc06-616cd266ba26.png)
+Buka Mongo DB Compas
+![image](https://user-images.githubusercontent.com/15622730/223632076-d5690100-14ef-423e-9d97-cc2e62099eab.png)
+Ganti Passwordnya dengan yang tadi sudah disimpan dan hapus kurung sikunya
+![image](https://user-images.githubusercontent.com/15622730/223632419-2231f036-2aed-4304-93be-9ff40785ad3b.png)
+Hasilnya seperti ini
+![image](https://user-images.githubusercontent.com/15622730/223632785-a380ab91-ce4f-4842-89d1-6859fd6136ea.png)
+
 * [MongoDB](https://www.mongodb.com/)
 * MySQL : https://www.freemysqlhosting.net/, https://www.db4free.net/, https://remotemysql.com/
 
